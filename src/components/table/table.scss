@@ -1,0 +1,33 @@
+.table-panda {
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #14a098;
+  border-collapse: collapse;
+
+  & tr {
+    background-color: #cccccc;
+    color: #0f292f;
+    border-bottom: 1px solid #14a098;
+
+    &:nth-child(even) {
+      background-color: #0f292f;
+      color: #cccccc;
+    }
+  }
+
+  &__row {
+    padding: 10px 15px;
+  }
+
+  &__head {
+    font-size: 1.3rem;
+    padding: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #14a098;
+      color: #cb2d6f;
+    }
+  }
+}

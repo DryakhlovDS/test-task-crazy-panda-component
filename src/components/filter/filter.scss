@@ -1,0 +1,23 @@
+.filter-panda {
+  margin: 2rem;
+  font-size: 1.2rem;
+  color: #cccccc;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  & input {
+    width: 40%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #cccccc;
+    color: #0f292f;
+
+    &:focus {
+      outline: #14a098 solid 1px;
+    }
+  }
+}
